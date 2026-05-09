@@ -20,7 +20,7 @@ class Teacher extends Person {
     // Polymorphism
     introduce() {
         console.log(
-            `Halo, saya Pak/Bu ${this.name}, guru mata pelajaran ${this.subject}`
+            `Assalamualaikum, saya ${this.name}, guru mata pelajaran ${this.subject}`
         );
     }
 }
