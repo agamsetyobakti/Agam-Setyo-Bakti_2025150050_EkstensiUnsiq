@@ -52,7 +52,7 @@ class Student extends Person {
     // Polymorphism
     introduce() {
         console.log(
-            `Halo, saya ${this.name}, siswa jurusan ${this.major}`
+            `Assalamualaikum, saya ${this.name}, siswa jurusan ${this.major}`
         );
     }
 }
